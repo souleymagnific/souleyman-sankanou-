@@ -1,0 +1,112 @@
+body {
+    background-color: grey;
+}
+
+.page {
+    width: 780px;
+    margin: auto;
+    font-family: 'source sans pro', Calibri, Tahoma, sans-serif;
+    font-size: 16px;
+    border: 5px solid #3388cc;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px black;
+    padding: 20px;
+    background-color: white;
+}
+
+.infophoto {
+    height: 150px;
+}
+
+.info {
+    float: left;
+}
+
+.info:hover {
+    color: forestgreen;
+}
+
+.photo {
+    float: right;
+}
+
+.section {
+    margin-bottom: 70px;
+    text-align: justify;
+}
+
+.section:hover {
+    color: forestgreen;
+}
+
+.sec-gauche {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sec-droite {
+    margin-left: 350px;
+}
+
+h2 {
+    font-size: 28px;
+    color: blue;
+    border-bottom: 3px solid #3388cc;
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#forma1 {
+    margin-top: -16px;
+}
+
+#forma2 {
+    margin-top: 262px;
+}
+
+#forma3 {
+    margin-top: 134px;
+}
+
+#forma4 {
+    margin-top: 155px;
+}
+
+#forma5 {
+    margin-top: -17px;
+}
+
+#forma6 {
+    margin-top: 55px;
+}
+
+#forma7 {
+    margin-top: 111px;
+}
+
+#langue {
+    margin-top: -27px;
+}
+
+#date-webradio {
+    margin-top: -18px;
+}
+
+#centre-interet {
+    margin-top: 50px;
+}
+
+strong {
+    font-size: 22px;
+}
+
+@media all and (max-width: 1024px) {
+    #page {
+        width: auto;
+        margin-left: auto;
+    }
+}
